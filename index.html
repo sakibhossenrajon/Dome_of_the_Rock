@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dome of the Rock • Jerusalem | Sacred Pilgrimage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #d4af37;
+      --deep-green: #0f3a2a;
+      --cream: #f8f1e3;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      line-height: 1.7;
+      color: #333;
+      background: var(--cream);
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(15, 58, 42, 0.75), rgba(15, 58, 42, 0.85)),
+                  url('https://images.unsplash.com/photo-1633987045033-b2deb0e94676?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZG9tZSUyMG9mJTIwdGhlJTIwcm9ja3xlbnwwfHwwfHx8MA%3D%3D') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    .hero-content h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4.5rem;
+      margin-bottom: 1rem;
+      text-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    }
+    .hero-content p {
+      font-size: 1.6rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(15, 58, 42, 0.95);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      padding: 1rem 5%;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: var(--gold); }
+
+    section { padding: 100px 8%; }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+      color: var(--deep-green);
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .content {
+      max-width: 1100px;
+      margin: 0 auto;
+      font-size: 1.15rem;
+    }
+
+    .content p {
+      margin-bottom: 20px;
+    }
+    .gold-text { color: var(--gold); }
+
+    .plan-container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+    .image-card {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+      transition: transform 0.4s;
+    }
+    .image-card:hover { transform: translateY(-15px); }
+    .image-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+    }
+    .image-card p {
+      padding: 15px;
+      text-align: center;
+      font-weight: 500;
+      background: white;
+    }
+    footer {
+      background: var(--deep-green);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 1.1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 40px;
+      background: var(--gold);
+      color: #000;
+      font-weight: 600;
+      border-radius: 50px;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .btn:hover {
+      background: white;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO HEADER -->
+  <header>
+    <div class="hero-content">
+      <h1>Dome of the Rock</h1>
+      <p style="font-size: 2rem; margin-bottom: 20px;">Jerusalem • A Timeless Sanctuary of Faith</p>
+      <p>One of the holiest sites in Islam • Completed 691 CE</p>
+      <a href="#spiritual" class="btn">Begin Your Spiritual Journey</a>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#description">Description</a>
+    <a href="#plan">Site Plan</a>
+    <a href="#spiritual">Spiritual Benefits</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#cited">Works Cited</a>
+  </nav>
+
+  <!-- DESCRIPTION -->
+  <section id="description">
+    <h2>Brief Description of the Site</h2>
+    <div class="content">
+      <p>The Dome of the Rock (Qubbat al-Sakhra) is a famous Islamic shrine on the Temple Mount of the Old City of Jerusalem. The oldest extant Islamic architecture is the one that was completed in 691-692 CE by Umayyad Caliph Abd al-Malik ibn Marwan (Grabar 2006, 45; Rabbat 1989). The building is erected over the holy Foundation Rock (the Rock), which is a place of worship in Abrahamic faiths (Levy-Rubin 2017).</p>
+      <p>It is an octagonal structure with a great gilded dome measuring about 20 meters in diameter at the top of which is a drum and an inner circle of piers and columns (Milwright 2016, 112). The outside is decorated with bright blue, turquoise and gold tiles and everything inside is beautifully decorated with marble, mosaic patterns with vegetal and geometry and the Quranic inscriptions that highlight the oneness of God (tawhid) (Grabar 2006; Milwright 2016). The design is based on the Byzantine tradition with the innovations on the principles of Islamic art, which is not based on figurative images (Rabbat 1989).</p>
+      <p>The Dome of the Rock is not a mosque where people should pray regularly, but rather a commemorative shrine, which is located on a high platform in the Haram al-Sharif (Grabar 2006). It is the location where, as per the Islamic tradition, Prophet Muhammad rose to heaven during the Night Journey (Isra and Mi’raj) (Grabar 2006). The rock in the center of the site is also of great importance to Jewish and Christian beliefs, and it is associated with the near-sacrifice of Isaac by Abraham as well as the other prophetic events (Rabbat 1989; Levy-Rubin 2017).</p>
+      <p>The Dome of the Rock is a great representation of the Islamic heritage, spirituality, and architectural brilliance today, with Muslim pilgrims and visitors the world over who want to associate with the history of God in this holy site (Rabbat 1989).</p>
+    </div>
+  </section>
+
+  <!-- LABELED PLAN -->
+  <section id="plan" style="background: #f4e9d8;">
+    <h2>Labeled Architectural Plan</h2>
+    <div class="plan-container">
+      <img src="https://nabataea.net/media/01explore/05CitiesSites/DomeRock2.jpg" style="width:100%; max-width: 700px; border-radius:12px;">
+      <p style="margin-top:20px; font-size:1.1rem;">
+        <strong>Key Features:</strong> Central Dome over the Foundation Stone • Octagonal Ambulatory • Inner Circle of Columns • Four Main Entrances
+      </p>
+    </div>
+  </section>
+
+  <!-- SPIRITUAL BENEFITS -->
+  <section id="spiritual">
+    <h2>Spiritual Benefits of the Site</h2>
+    <div class="content">
+      <p>Pilgrimage to the Dome of the Rock is a source of spiritual benefits that are closely related to the visual and architectural characteristics. The centre of it is the Foundation Stone, which is thought to have been the place where Prophet Muhammad ascended (Mi’raj) to heaven (Grabar 2006). The presence in front of this rock produces an immediate association with the divine experience and makes pilgrims remember the process of the journey of the Prophet and the persistence of the monotheistic religion.</p>
+      <p>The glossy golden dome, seen in the distance, is an image of the heavens and it raises the spirit to God (Rabbat 1989). It is a shining structure, paved with detailed tiles, which give the sky-light of deity, and awe and humility (Milwright 2016). The octagonal shape, symbolizes perfection and rebirth, welcomes a circumambulation (meditative) as pilgrims approach the building creating inner peace and spiritual renewal (Rabbat 1989). The ambulatory surrounding the dome gives the feeling of intimacy with the divine, similar to the heavenly ascension of the Prophet (Grabar 2006).</p>
+      <p>There is no human or animal figure in the mosaics inside, which makes attention to God as the only possible one (Rabbat 1989). Lovely vegetal designs and Quranic texts (with a focus on tawhid) cleanse the mind and strengthen the faith (Milwright 2016). The light that is cast by using stained-glass windows fills the sacred space with colors that remind of paradise, give comfort, forgive sins, and increase the bond with Allah (Milwright 2016).</p>
+      <p>To Muslims, the spiritual rewards are multiplied by praying or contemplating here. The architecture changes the experience of the visitor to the feeling of heaven instead of earthly thoughts, the architecture provides peace, enlightenment and a new devotion to faith. A lot of pilgrims claim that they felt very intimate with God and the Prophet and that the Dome of the Rock is a spiritually rejuvenating place.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" style="background:#fff;">
+    <h2>Visual Gallery</h2>
+    <div class="image-grid">
+      <div class="image-card">
+        <img src="/images/Paris-ProcessioninsideChurch-[1862].jpg" alt="Dome of the Rock Exterior">
+        <p>Procession inside the Church of the Holy Sepulchre</p>
+      </div>
+      <div class="image-card">
+        <img src="images/Bonfils-DomeHolySepulchre-.jpg" alt="Interior Mosaics">
+        <p>A rooftop view of the area surrounding the church, showing the dome</p>
+      </div>
+      <div class="image-card">
+        <img src="images/-Church-1849.jpg" alt="Sacred Rock Interior">
+        <p>Crypt of the Holy Sepulchre Jerusalem.</p>
+      </div>
+      <div class="image-card">
+        <img src="images/McDonald-InteriorHaramashSharif-1864-1865.jpg" alt="Sacred Rock Interior">
+        <p>Interior of the Haram-ash-Sharif : Kubbat-as-Sakhra from N.W. corner of Platform</p>
+      </div>
+      <div class="image-card">
+        <img src="images/Bonfils-Jerusalem:Mosquée-.jpg" alt="Sacred Rock Interior">
+        <p>The interior of the Dome of the Rock, showing the rock, the walls and columns with mosaics.</p>
+      </div>
+      <div class="image-card">
+        <img src="images/-DomeRock-.jpg" alt="Sacred Rock Interior">
+        <p>A panoramic view of the Old City of Jerusalem, focusing on two prominent religious landmarks. </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKS CITED -->
+  <section id="cited">
+    <h2>Works Cited</h2>
+    <div class="content" style="font-size:1.05rem;">
+      <p>Grabar, Oleg. <i>The Dome of the Rock</i>. Cambridge, MA: Harvard University Press, 2006.</p>
+      <p>Milwright, Marcus. <i>The Dome of the Rock and Its Umayyad Mosaic Inscriptions</i>. Edinburgh: Edinburgh University Press, 2016. https://www.jstor.org/stable/10.3366/j.ctvggx3rh</p>
+      <p>Rabbat, Nasser. “The Meaning of the Umayyad Dome of the Rock.” <i>Muqarnas</i> 6 (1989): 12–21. https://www.jstor.org/stable/1523172.</p>
+      <p>Levy-Rubin, Milka. “Why Was the Dome of the Rock Built? A New Perspective."<i>Bulletin of the School of Oriental and African Studies</i>80, no. 3 (2017): 441–64. https://www.jstor.org/stable/26849574</p>
+
+    <h2>Images Cited</h2>
+    <p>Pâris, Edmond, 1806-1893., Clergert, Hubert, 1818-1899., and Gaildrau, Jules, 1816-1898. Procession inside the Church of the Holy Sepulchre, Jerusalem. Chromolithograph by H. Clerget and J. Gaildrau after François Edmond Pâris, 1862. [1862]. 1 print : chromolithograph, image 49.2 x 35.5 cm + title page and descriptive text are also in the collection. Wellcome Collection. https://jstor-org.lib-proxy.jsu.edu/stable/community.24907904.</p>
+    <p>Bonfils, Felix. Dome of the Holy Sepulchre. n.d. Albumen , 28.4 x 22 cm (11.125 x 8.75 in). https://jstor-org.lib-proxy.jsu.edu/stable/community.21863200.</p>
+    <p>Church. 1849. Wellcome Collection. https://jstor-org.lib-proxy.jsu.edu/stable/community.24906905.</p>
+    <p>McDonald, James. Interior of the Haram-Ash-Sharif : Kubbat-as-Sakhra from N.W. Corner of Platform. London, 1864-1865. Albumen , 21.8 x 17 cm ( 8.625 x 6.75 in)]. https://jstor-org.lib-proxy.jsu.edu/stable/community.21863361.</p>
+    <p>Bonfils, Felix. Jerusalem : Mosquée d’Omar, Intérieur. n.d. Albumen, 27.8 x 21.2 cm ( 11 x 8.5 in). https://jstor-org.lib-proxy.jsu.edu/stable/community.21861806.</p>
+    <p>Dome of the Rock. n.d. Paper. Visual Resources of the Middle East. Yale University Open Community Collections. https://jstor-org.lib-proxy.jsu.edu/stable/community.37834261.</p>
+
+    </div>
+    
+  </section>
+
+  <footer>
+    <p><strong>Come. Reflect. Renew Your Faith.</strong></p>
+    <p>Dome of the Rock • Haram al-Sharif • Jerusalem</p>
+    <p style="margin-top:20px; opacity:0.8;">A Sacred Pilgrimage Experience</p>
+  </footer>
+
+</body>
+</html>
